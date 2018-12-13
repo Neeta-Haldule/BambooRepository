@@ -1,5 +1,6 @@
 @echo off
-
+cd C:\Users\Administrator\bamboo-agent-home\xml-data\build-dir\EX-PLANTEST-TES
+del /s *.xml
 set source=C:\Automation\Login_Logout\Execute_Suit\Output
 set dest=C:\Users\Administrator\bamboo-agent-home\xml-data\build-dir\EX-PLANTEST-TES
 pushd "%source%"
